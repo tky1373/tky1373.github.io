@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontAwesome6/css/all.min.css">
+</head>
+<body>      
+    <div class="main-background">        
+        <div class="nav-bar" style="position: relative;">
+            <a href="#">학습하기</a>
+            <a href="code-editor.html">문제풀기</a>
+            <a href="#">커뮤니티</a>
+            <a href="#">랭킹</a>
+            <a href="#">상점</a>
+            <a href="#">캘린더</a>
+            <i class="fas fa-user-circle fa-3x"></i>
+        </div>
+        <div class="main-container">
+            <div class="main-content">
+                <h2>문제</h2>
+                <p>A와 B를 더하는 코드를 작성하세요.</p>
+                <br>
+                <h2>코드 제출</h2>
+                <div class="monaco_editor">
+                    <div id="editor"></div>
+                </div>
+                <button id="submit-Btn">제출</button>
+            </div>
+            
+        </div>
+    </div>
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
